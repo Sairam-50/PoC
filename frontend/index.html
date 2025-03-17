@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Banking Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Banking Portal</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Secure and Reliable Banking</h2>
+            <p>Enter your card number to check your balance instantly.</p>
+        </section>
+
+        <section class="form-section">
+            <div class="container">
+                <input type="text" id="cardNumber" class="input-field" placeholder="Enter Card Number">
+                <button class="button" onclick="checkBalance()">Check Balance</button>
+                <p id="balance" class="balance-display"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div id="trustmark" onclick="window.location.href='verify.html'">
+            <img src="trustmark.png" alt="Verified Site" class="trustmark">
+            <p>Verified Secure Site</p>
+        </div>
+        <p>&copy; 2025 Company Banking Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
