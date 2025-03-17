@@ -116,3 +116,52 @@ body {
 .footer p {
     font-size: 14px;
 }
+
+
+
+
+
+/* Scoped Styles for Site Verification */
+.verification-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centered container */
+.verification-container .container {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Card Styling */
+.verification-container .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Verification Status */
+.verification-container #verification-status {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hide details initially */
+.verification-container .hidden {
+    display: none;
+}
+
+/* Success & Failure Indicators */
+.verification-container .verified {
+    color: green;
+    font-weight: bold;
+}
+
+.verification-container .unverified {
+    color: red;
+    font-weight: bold;
+}

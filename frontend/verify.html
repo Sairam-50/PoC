@@ -6,9 +6,18 @@
     <title>Site Verification</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Trustmark Verification</h1>
-    <p id="verification-status">Checking...</p>
+<body class="verification-container">
+    <div class="container">
+        <h1>🔒 Trustmark Verification</h1>
+        <div id="verification-card" class="card">
+            <p id="verification-status">Checking...</p>
+            <div id="details" class="hidden">
+                <p><strong>Company:</strong> <span id="company-name"></span></p>
+                <p><strong>Issued By:</strong> <span id="issuer"></span></p>
+                <p><strong>Valid Until:</strong> <span id="validity"></span></p>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
